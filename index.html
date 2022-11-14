@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+    <tr>
+        <div class="img_table">
+            <td>
+                <div class="img_take">
+                    <a href="javascript:l_image('img/img1.jpg')"><img src="img/img1.jpg"></a><br>
+                    <a href="javascript:l_image('img/img2.jpg')"><img src="img/img2.jpg"></a><br>
+                    <a href="javascript:l_image('img/img3.jpg')"><img src="img/img3.jpg"></a><br>
+                    <a href="javascript:l_image('img/img4.jpg')"><img src="img/img4.jpg"></a><br>
+                </div>
+            </td>
+        </div>
+        <td>
+            <div class="img_select">
+                <img src="img/img1.jpg" name="example_img">
+            </div>
+
+        </td>
+    </tr>
+</table>
+<script>
+    function l_image(a) {
+        document.example_img.src = a;
+    }
+</script>
+
+<a href="zad2.html">Следующая</a>
+</body>
+</html>

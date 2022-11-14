@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ <p>
+    <img src="img/img1.jpg" onmouseenter=up("one") onmouseleave=down('one') width="120" height="120">
+    <img src="img/img2.jpg" onmouseenter=up("two") onmouseleave=down('two') width="120" height="120">
+    <img src="img/img3.jpg" onmouseenter=up("tri") onmouseleave=down('tri') width="120" height="120">
+    <img src="img/img4.jpg" onmouseenter=up("four") onmouseleave=down('four') width="120" height="120">
+  </p>
+ <p>
+    <img src="img/up.png" id="one" width="120" height="120" style="visibility: hidden">
+    <img src="img/up.png" id="two" width="120" height="120" style="visibility: hidden">
+    <img src="img/up.png" id="tri" width="120" height="120" style="visibility: hidden">
+    <img src="img/up.png" id="four" width="120" height="120" style="visibility: hidden">
+  </p>
+
+<script>
+    function up(a) {
+        document.getElementById(a).style.visibility="visible";
+    }
+    function down(a) {
+        document.getElementById(a).style.visibility="hidden";
+    }
+</script>
+</body>
+</html>

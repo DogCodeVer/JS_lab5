@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img_table{
+    padding-right: 100px;
+}
+
+.img_take{
+    float: left;
+}
+.img_take img{
+    height: 100px;
+    width: 100px;
+}
+
+.img_select img{
+    height: 300px;
+    width: 300px;
+}
+
+.scale_img img{
+    height: 300px;
+    width: 300px;
+}
+
+.scale_img img:hover{
+    height: 450px;
+    width: 450px;
+    transition: 0.3s;
+}
